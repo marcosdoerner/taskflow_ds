@@ -1,0 +1,105 @@
+# ==========================================
+# .NET / ASP.NET Core Web API
+# ==========================================
+
+# Resultados de Build (Debug, Release, bin, obj)
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Cache do Visual Studio / Rider
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+
+# Pacotes do NuGet
+*.nupkg
+*.snupkg
+packages/*
+!packages/build/
+
+# Arquivos de configuração de usuário (NUNCA subir segredos)
+appsettings.Development.json
+appsettings.Local.json
+.env
+*.pubxml
+*.publishproj
+
+# Bancos de dados locais (SQL Server LocalDB, SQLite)
+*.mdf
+*.ldf
+*.ndf
+*.db
+
+# Testes e Cobertura
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# ==========================================
+# Angular / Node.js
+# ==========================================
+
+# Dependências (NUNCA subir node_modules)
+node_modules/
+bower_components/
+jspm_packages/
+
+# Resultados de Compilação do Angular
+/dist
+/tmp
+/out-tsc
+/app/**/*.js
+/app/**/*.js.map
+/wwwroot/dist/main-client.*
+/ClientApp/dist/main-server.*
+
+# Cache do Angular CLI
+.angular/
+
+# Logs e Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Configurações locais de editores
+.sass-cache/
+connect.lock/
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+e2e/*.js
+e2e/*.map
+
+# ==========================================
+# Sistema Operacional e Editores
+# ==========================================
+
+# Mac
+.DS_Store
+.AppleDouble
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Arquivos temporários
+*.tmp
+*.temp
+~$*
+*~
