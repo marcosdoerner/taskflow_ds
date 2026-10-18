@@ -103,3 +103,4 @@ $RECYCLE.BIN/
 *.temp
 ~$*
 *~
+src/TaskFlow.Api/appsettings.json
